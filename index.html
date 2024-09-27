@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Comida Saludable</title>
+  <link rel="stylesheet" href="./styles.css"> <!-- Conexión a los estilos CSS -->
+</head>
+<body>
+  <div class="container">
+    <h1>Tienda de Comida Saludable</h1>
+    <div class="productos">
+      <!-- Producto 1: Ensalada -->
+      <div class="producto" id="ensalada">
+        <img src="./images/ensalada.png" alt="Ensalada" width="150"> <!-- Imagen de ensalada -->
+        <p>Ensalada</p>
+        <p><strong>$20.000</strong></p>
+        <button class="calcular-btn" data-precio="20.000">Precio/producto</button>
+      </div>
+
+      <!-- Producto 2: Frutas -->
+      <div class="producto" id="frutas">
+        <img src="./images/frutas.png" alt="Frutas" width="150"> <!-- Imagen de frutas -->
+        <p>Frutas</p>
+        <p><strong>$16.000</strong></p>
+        <button class="calcular-btn" data-precio="16.000">Precio/producto </button>
+      </div>
+
+      <!-- Producto 3: Smoothie -->
+      <div class="producto" id="smoothie">
+        <img src="./images/smoothie.png" alt="Smoothie" width="190"> <!-- Imagen de smoothie -->
+        <p>Smoothie</p> 
+        
+        <p><strong>$17.000</strong></p>
+        <button class="calcular-btn" data-precio="17.000">Precio/producto</button>
+      </div>
+    </div>
+    <div id="resultado" class="resultado"></div>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

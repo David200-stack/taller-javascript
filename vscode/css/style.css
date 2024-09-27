@@ -1,0 +1,81 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilo principal del contenedor */
+  .container {
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  /* Título principal */
+  h1 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para organizar los productos en una fila */
+  .productos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Estilo de cada producto */
+  .producto {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+  }
+  
+  /* Efecto al pasar el ratón sobre el producto */
+  .producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Botón de calcular precio */
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efecto al pasar el ratón sobre el botón */
+  button:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Sección de resultados */
+  .resultado {
+    margin-top: 30px;
+    padding: 15px;
+    background: #e0f7fa;
+    border: 1px solid #b2ebf2;
+    border-radius: 8px;
+    color: #00796b;
+    font-size: 18px;
+  }
